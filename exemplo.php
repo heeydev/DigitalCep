@@ -6,8 +6,6 @@ use Hiago\DigitalCep\Search;
 
 $busca = new Search;
 
-$resultado = $busca->getAddressFromZipcode('01001000');
+$resultado = $busca->getAddressFromZipcode('03624010');
 
 print_r($resultado);
-
-?>
